@@ -35,3 +35,7 @@
 - **Language** : Java
 - **Database** : Docker에서 실행되는 PostgreSQL 이미지
 - **Connection** : JDBC를 통해 PostgreSQL 데이터베이스에 연결
+
+
+## 클래스 다이어그램
+![서비스응답구조.png](image/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%91%EB%8B%B5%EA%B5%AC%EC%A1%B0.png)
