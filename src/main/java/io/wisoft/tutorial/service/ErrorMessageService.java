@@ -1,4 +1,4 @@
-package io.wisoft.tutorial.error;
+package io.wisoft.tutorial.service;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

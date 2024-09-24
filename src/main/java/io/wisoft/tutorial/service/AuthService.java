@@ -1,8 +1,8 @@
-package io.wisoft.tutorial;
+package io.wisoft.tutorial.service;
 
+import io.wisoft.tutorial.AuthRepository;
 import io.wisoft.tutorial.domain.User;
 import io.wisoft.tutorial.dto.UserResponse;
-import io.wisoft.tutorial.error.ErrorMessageService;
 import io.wisoft.tutorial.exception.AuthException;
 
 import java.util.Locale;

@@ -3,8 +3,9 @@ package io.wisoft.tutorial;
 import io.wisoft.tutorial.dto.ApiResponse;
 import io.wisoft.tutorial.dto.UserResponse;
 import io.wisoft.tutorial.error.ErrorCode;
-import io.wisoft.tutorial.error.ErrorResponse;
+import io.wisoft.tutorial.dto.ErrorResponse;
 import io.wisoft.tutorial.exception.AuthException;
+import io.wisoft.tutorial.service.AuthService;
 
 import java.util.Locale;
 
@@ -28,7 +29,6 @@ public class AuthController {
 
     try {
       UserResponse user = authService.authenticate(email, password, userLocale);
-      System.out.println(user.email());
       return new ApiResponse("success", user);
 
     } catch (AuthException e) {

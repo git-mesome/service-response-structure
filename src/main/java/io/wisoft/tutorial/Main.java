@@ -1,11 +1,10 @@
 package io.wisoft.tutorial;
 
-import io.wisoft.tutorial.db.DBConnection;
 import io.wisoft.tutorial.dto.ApiResponse;
 import io.wisoft.tutorial.dto.UserResponse;
-import io.wisoft.tutorial.error.ErrorResponse;
+import io.wisoft.tutorial.dto.ErrorResponse;
+import io.wisoft.tutorial.service.AuthService;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -16,7 +15,6 @@ public class Main {
     AuthService authService = new AuthService(authRepository);
     AuthController authController = new AuthController(authService);
 
-    // 사용자 입력을 받기 위한 스캐너 생성
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("로그인 하세요.");

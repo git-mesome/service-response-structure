@@ -1,5 +1,7 @@
 package io.wisoft.tutorial.error;
 
+import io.wisoft.tutorial.service.ErrorMessageService;
+
 import java.util.Locale;
 
 public enum ErrorCode {

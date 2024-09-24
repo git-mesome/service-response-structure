@@ -1,4 +1,6 @@
-package io.wisoft.tutorial.error;
+package io.wisoft.tutorial.dto;
+
+import io.wisoft.tutorial.error.ErrorCode;
 
 import java.util.Locale;
 
